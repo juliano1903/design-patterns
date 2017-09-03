@@ -7,9 +7,8 @@ public class Aplicacao {
 		CalculadorDeImpostos calculador = new CalculadorDeImpostos();
 		
 		Orcamento orcamento = new Orcamento(10);
-		Imposto iss = new ISS();
 		
-		calculador.calculaImposto(orcamento, iss);
+		Imposto iss = new ISS();
 		
 		System.out.println(calculador.calculaImposto(orcamento, iss));
 	}
