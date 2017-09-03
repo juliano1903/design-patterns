@@ -33,4 +33,11 @@ public class Orcamento {
 		valor = valor + item.getValor();
 		itens.add(item);
 	}
+	
+	public boolean existe(String nomeDoItem) {
+		return itens
+				.stream()
+				.filter(item -> item.nome.equalsIgnoreCase(nomeDoItem))
+				.count() > 0;
+	}
 }

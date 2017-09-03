@@ -6,8 +6,8 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Item item1 = new Item(400, "Lápis");
-		Item item2 = new Item(200, "Caneta");
+		Item item1 = new Item(50, "LÁPIS");
+		Item item2 = new Item(50, "CANETA");
 		
 		Orcamento orcamento = new Orcamento();
 		
